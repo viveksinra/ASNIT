@@ -21,31 +21,18 @@ const SidebarModal: React.FC<SidebarModalProps> = ({ active, onClick }) => {
             <div className="title">
               <h2>About Us</h2>
               <p>
-                We believe brand interaction is key in communication. Real
-                innovations and a positive customer experience are the heart of
-                successful communication. No fake products and services. The
-                customer is king, their lives and needs are the inspiration.
+              We Understand that in a growing IT world, there are many choices
+available to select an IT Services Partner. Our customer chooses us
+because We are focused on providing complete customer Satisfaction.
+The ultimate goal of ASN IT is to have its own identity in BPO industry
+as a most trusted service provider in all aspects and a one stop
+solution for high quality, time bound and cost effective data
+management services.
               </p>
             </div>
           </div>
 
-          <div className="sidebar-instagram-feed">
-            <h2>Instagram</h2>
-            <ul>
-              {[...Array(8)].map((_, index) => (
-                <li key={index}>
-                  <a href="https://www.instagram.com/" target="_blank">
-                    <Image
-                      src={`/images/blog-image/blog-image${index + 1}.jpg`}
-                      alt="image"
-                      width={860}
-                      height={700}
-                    />
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+      
 
           <div className="sidebar-contact-area">
             <div className="contact-info">

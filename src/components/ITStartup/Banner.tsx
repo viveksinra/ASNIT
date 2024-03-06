@@ -30,7 +30,7 @@ const Banner: React.FC = () => {
                       data-aos-duration="800"
                       data-aos-delay="100"
                     >
-                      Secure IT Solutions for a More Secure Environment!
+                      Complete IT and Data Management Solution
                     </h1>
 
                     <p
