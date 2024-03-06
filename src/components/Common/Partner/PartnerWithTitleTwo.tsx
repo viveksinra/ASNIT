@@ -6,9 +6,23 @@ import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
 
 const PartnerWithTitleTwo: React.FC = () => {
+  // Array of partner image paths
+  const partnerImages = [
+    "/images/partner-image/partner-img1.png",
+    "/images/partner-image/partner-img2.png",
+    "/images/partner-image/partner-img3.png",
+    "/images/partner-image/partner-img4.png",
+    "/images/partner-image/partner-img5.png",
+    "/images/partner-image/partner-img6.png",
+    "/images/partner-image/partner-img7.png",
+    "/images/partner-image/partner-img8.png",
+    "/images/partner-image/partner-img9.png",
+    "/images/partner-image/partner-img10.png",
+  ];
+
   return (
     <>
-      <div className="partner-area pt-100 pb-0">
+      <div className="partner-area pb-100">
         <div className="container">
           <div className="section-title">
             <h2>Our Loving Clients</h2>
@@ -39,195 +53,26 @@ const PartnerWithTitleTwo: React.FC = () => {
             modules={[Autoplay, Navigation]}
             className="partner-slides"
           >
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img1.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img1.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img2.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img2.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img3.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img3.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img4.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img4.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img5.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img5.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img6.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img6.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img7.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img7.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img8.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img8.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img9.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img9.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="single-partner-item">
-                <a href="#" target="_blank">
-                  <Image
-                    src="/images/partner-image/partner-img10.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                  <Image
-                    src="/images/partner-image/partner-img10.png"
-                    alt="image"
-                    width={200}
-                    height={60}
-                  />
-                </a>
-              </div>
-            </SwiperSlide>
+            {partnerImages.map((image, index) => (
+              <SwiperSlide key={index}>
+                <div className="single-partner-item">
+                  <a href="#" target="_blank">
+                    <Image
+                      src={image}
+                      alt="image"
+                      width={200}
+                      height={60}
+                    />
+                    <Image
+                      src={image}
+                      alt="image"
+                      width={200}
+                      height={60}
+                    />
+                  </a>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>

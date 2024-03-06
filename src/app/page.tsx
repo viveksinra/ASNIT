@@ -27,23 +27,23 @@ export default function Page() {
 
       <SolutionTwo />
 
-      <LatestWorks />
+      {/* <LatestWorks /> */}
 
       <FunFacts />
 
       <TestimonialsTwo />
 
-      <PricingStyleTwo />
+      {/* <PricingStyleTwo /> */}
 
-      <OurTeamTwo />
+      {/* <OurTeamTwo /> */}
 
-      <LetsGetToWork />
+      {/* <LetsGetToWork /> */}
 
       <PartnerWithTitleTwo />
 
-      <LatestNewsTwo />
+      {/* <LatestNewsTwo /> */}
 
-      <SubscribeBoxedTwo />
+      {/* <SubscribeBoxedTwo /> */}
 
       <Footer />
     </>

@@ -12,8 +12,7 @@ const LatestWorks: React.FC = () => {
           <div className="section-title">
             <h2>Our Latest Works</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
+            ASN IT offers a comprehensive range of services to meet your business needs. From data digitization to BPO services, we provide high-quality, time-bound, and cost-effective solutions.
             </p>
           </div>
 
@@ -96,83 +95,6 @@ const LatestWorks: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-sm-6">
-              <div className="work-card">
-                <Image
-                  src="/images/works/work4.jpg"
-                  alt="image"
-                  width={510}
-                  height={700}
-                />
-
-                <div className="content text-center">
-                  <span>
-                    <Link href="/projects">React</Link>
-                  </span>
-                  <h3>
-                    <Link href="/projects/details">
-                      How to start a project with Reactjs
-                    </Link>
-                  </h3>
-
-                  <Link href="/projects/details" className="work-btn">
-                    Case Study
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="work-card">
-                <Image
-                  src="/images/works/work5.jpg"
-                  alt="image"
-                  width={510}
-                  height={700}
-                />
-
-                <div className="content text-center">
-                  <span>
-                    <Link href="/projects">Angular</Link>
-                  </span>
-                  <h3>
-                    <Link href="/projects/details">
-                      Examples of different types of sprints
-                    </Link>
-                  </h3>
-
-                  <Link href="/projects/details" className="work-btn">
-                    Case Study
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="work-card">
-                <Image
-                  src="/images/works/work6.jpg"
-                  alt="image"
-                  width={510}
-                  height={700}
-                />
-
-                <div className="content text-center">
-                  <span>
-                    <Link href="/projects">Development</Link>
-                  </span>
-                  <h3>
-                    <Link href="/projects/details">
-                      Redesigning the New York times app
-                    </Link>
-                  </h3>
-
-                  <Link href="/projects/details" className="work-btn">
-                    Case Study
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="more-work">

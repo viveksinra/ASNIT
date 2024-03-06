@@ -11,8 +11,8 @@ const Testimonials: React.FC = () => {
       <div className="feedback-area ptb-100 bg-color">
         <div className="container">
           <div className="section-title">
-            <span className="sub-title">Testimonials</span>
-            <h2>Some Lovely Feedback From Our Clients</h2>
+            <span className="sub-title">Client Testimonials</span>
+            <h2>Discover What Our Clients Have to Say</h2>
           </div>
         </div>
 
@@ -46,9 +46,7 @@ const Testimonials: React.FC = () => {
           <SwiperSlide>
             <div className="single-feedback-item">
               <p>
-                “We believe brand interaction is key in communication. Real
-                innovations and a positive customer experience are the heart of
-                successful communication. No fake products and services.”
+                “ASN IT has been instrumental in our success. Their dedication to delivering top-notch solutions has significantly improved our business operations. We highly recommend their services.”
               </p>
               <div className="client-info">
                 <Image
@@ -66,9 +64,7 @@ const Testimonials: React.FC = () => {
           <SwiperSlide>
             <div className="single-feedback-item">
               <p>
-                “We believe brand interaction is key in communication. Real
-                innovations and a positive customer experience are the heart of
-                successful communication. No fake products and services.”
+                “The team at ASN IT is incredibly professional and knowledgeable. Their expertise in digital solutions has helped us achieve our goals and exceed our expectations. We're grateful for their outstanding support.”
               </p>
               <div className="client-info">
                 <Image
@@ -86,9 +82,7 @@ const Testimonials: React.FC = () => {
           <SwiperSlide>
             <div className="single-feedback-item">
               <p>
-                “We believe brand interaction is key in communication. Real
-                innovations and a positive customer experience are the heart of
-                successful communication. No fake products and services.”
+                “Working with ASN IT has been a pleasure. Their team is responsive, efficient, and always delivers exceptional results. We look forward to continuing our partnership with them in the future.”
               </p>
               <div className="client-info">
                 <Image
@@ -106,9 +100,7 @@ const Testimonials: React.FC = () => {
           <SwiperSlide>
             <div className="single-feedback-item">
               <p>
-                “We believe brand interaction is key in communication. Real
-                innovations and a positive customer experience are the heart of
-                successful communication. No fake products and services.”
+                “ASN IT has been an invaluable partner for us. Their commitment to excellence and attention to detail sets them apart. We're grateful for their unwavering support and dedication.”
               </p>
               <div className="client-info">
                 <Image
@@ -126,9 +118,7 @@ const Testimonials: React.FC = () => {
           <SwiperSlide>
             <div className="single-feedback-item">
               <p>
-                “We believe brand interaction is key in communication. Real
-                innovations and a positive customer experience are the heart of
-                successful communication. No fake products and services.”
+                “Choosing ASN IT was one of the best decisions we've made for our business. Their team goes above and beyond to deliver exceptional service and results. We highly recommend their services.”
               </p>
               <div className="client-info">
                 <Image
@@ -146,6 +136,8 @@ const Testimonials: React.FC = () => {
       </div>
     </>
   );
+
+
 };
 
 export default Testimonials;

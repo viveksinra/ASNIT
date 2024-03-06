@@ -105,43 +105,34 @@ const ServicesOverview: React.FC = () => {
             </div>
 
             <div className="overview-content">
-              <div className="content right-content">
-                <h2>BPO Services</h2>
-                <p>
-                ASN IT offers reliable BPO services, including business development, tele marketing, inbound and outbound call center services, leveraging IT capabilities for successful outcomes.
-                </p>
+  <div className="content right-content">
+    <h2>BPO Services</h2>
+    <p>
+      ASN IT offers comprehensive BPO services tailored to meet the diverse needs of businesses. Our BPO solutions encompass various areas such as customer support, sales, and back-office operations, delivering reliable and efficient services to enhance your business performance.
+    </p>
 
-                <div className="features-text">
-                  <h4>
-                    <i className="flaticon-tick"></i> Content Marketing
-                  </h4>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem.
-                  </p>
-                </div>
+    <div className="features-text">
+      <h4>
+        <i className="flaticon-tick"></i> Telemarketing
+      </h4>
+      <p>
+        With our telemarketing services, we help you reach out to potential customers, generate leads, and drive sales through effective communication and persuasion.
+      </p>
+    </div>
 
-                <div className="features-text">
-                  <h4>
-                    <i className="flaticon-tick"></i> SEO Optimization
-                  </h4>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem.
-                  </p>
-                </div>
+    <div className="features-text">
+      <h4>
+        <i className="flaticon-tick"></i> Inbound and Outbound Call Center Services
+      </h4>
+      <p>
+        Our inbound and outbound call center services ensure seamless communication with your customers, providing support, resolving queries, and conducting surveys to gather valuable feedback.
+      </p>
+    </div>
+  </div>
+</div>
 
-                <div className="features-text">
-                  <h4>
-                    <i className="flaticon-tick"></i> Social Marketing
-                  </h4>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem.
-                  </p>
-                </div>
-              </div>
-            </div>
+
+
 </div>
 
 
@@ -269,7 +260,7 @@ const ServicesOverview: React.FC = () => {
                   <li>
                     <span>
                       <i className="bx bxs-badge-check"></i>
-                      Laravel Development
+                      NodeJs Development
                     </span>
                   </li>
                   <li>
@@ -281,7 +272,7 @@ const ServicesOverview: React.FC = () => {
                   <li>
                     <span>
                       <i className="bx bxs-badge-check"></i>
-                      Angular Development
+                      React-Native Development
                     </span>
                   </li>
                 </ul>
