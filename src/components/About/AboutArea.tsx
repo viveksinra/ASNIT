@@ -23,44 +23,60 @@ const AboutArea: React.FC = () => {
             <div className="col-lg-6 col-md-12">
               <div className="about-content">
                 <span className="sub-title">About Us</span>
-                <h2>We Are Digital Explorers</h2>
+                <h2>We Strive for Customer Satisfaction</h2>
                 <p>
-                  We believe brand interaction is key in communication. Real
-                  innovations and a positive customer experience are the heart
-                  of successful communication. No fake products and services.
-                  The customer is king, their lives and needs are the
-                  inspiration.
+                  ASN IT is a leading Data Digitization and scanning company in Northern India, specializing in Data Management, Scanning, and BPO services for over 8 years. Our focus is on delivering high-quality, timely, and cost-effective solutions to meet the diverse needs of our clients.
                 </p>
 
                 <ul className="features-list">
                   <li>
                     <span>
-                      <i className="fas fa-check"></i> Recommender systems
+                      <i className="fas fa-check"></i> Data Entry Online/Offline
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="fas fa-check"></i> Demand prediction
+                      <i className="fas fa-check"></i> Document Scanning Services
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="fas fa-check"></i> Omnichannel analytics
+                      <i className="fas fa-check"></i> Data Digitization
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="fas fa-check"></i> Lead generation
+                      <i className="fas fa-check"></i> DMS Providing Services
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="fas fa-check"></i> Dedicated Developers
+                      <i className="fas fa-check"></i> BPO Services
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="fas fa-check"></i> 24/7 Support
+                      <i className="fas fa-check"></i> Call Centre Services (Inbound and Outbound)
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i className="fas fa-check"></i> Infrastructure Services
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i className="fas fa-check"></i> OCR Conversion Services
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i className="fas fa-check"></i> IT Services
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i className="fas fa-check"></i> Manpower Services
                     </span>
                   </li>
                 </ul>
@@ -74,22 +90,21 @@ const AboutArea: React.FC = () => {
                 <div className="about-text">
                   <h3>Our History</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                    ASN IT has a rich history of delivering innovative solutions and ensuring positive customer experiences in communication and data management.
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Activate Listening
+                      <i className="flaticon-tick"></i> Setting benchmarks in data management
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Brilliant minds
+                      <i className="flaticon-tick"></i> Maintaining high-quality standards
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Better. Best. Wow!
+                      <i className="flaticon-tick"></i> Continuous improvement in service delivery
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Branding it better!
+                      <i className="flaticon-tick"></i> Building lasting relationships with clients
                     </li>
                   </ul>
                 </div>
@@ -99,22 +114,21 @@ const AboutArea: React.FC = () => {
                 <div className="about-text">
                   <h3>Our Mission</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                    ASN IT is committed to creating value and delivering results to clients through continuous innovation and dedicated service delivery.
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Creating. Results.
+                      <i className="flaticon-tick"></i> Providing high-quality, timely solutions
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Expect more
+                      <i className="flaticon-tick"></i> Meeting and exceeding client expectations
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Good thinking
+                      <i className="flaticon-tick"></i> Embracing technological advancements
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> In real we trust
+                      <i className="flaticon-tick"></i> Ensuring customer satisfaction at all levels
                     </li>
                   </ul>
                 </div>
@@ -122,24 +136,23 @@ const AboutArea: React.FC = () => {
 
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Who we are</h3>
+                  <h3>Who We Are</h3>
                   <p>
-                    Real innovations and a positive customer experience are the
-                    heart of successful communication.
+                    ASN IT is a team of dedicated professionals driven by a passion for excellence and a commitment to delivering outstanding services to our clients.
                   </p>
 
                   <ul className="features-list">
                     <li>
-                      <i className="flaticon-tick"></i> Stay real. Always.
+                      <i className="flaticon-tick"></i> Committed to integrity and transparency
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> We have you covered
+                      <i className="flaticon-tick"></i> Providing comprehensive solutions tailored to client needs
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> We turn heads
+                      <i className="flaticon-tick"></i> Embracing challenges and delivering results
                     </li>
                     <li>
-                      <i className="flaticon-tick"></i> Your brand, promoted
+                      <i className="flaticon-tick"></i> Promoting client brands and businesses effectively
                     </li>
                   </ul>
                 </div>
