@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -20,16 +18,16 @@ const Footer: React.FC = () => {
                     <i className="flaticon-phone-call"></i>
                     <span>Mon to Fri : 10:00AM - 06:00PM</span>
 
-                    <a href="tel:1235421457852">+919846173905</a>
+                    <a href="tel:+919846173905">+919846173905</a>
                   </li>
                   <li>
                     <i className="flaticon-email"></i>
                     <span>Do You Have a Question?</span>
-                    <a href="mailto:vivek@softechinfra.com">vivek@softechinfra.com</a>
+                    <a href="mailto:info@asnitcorporates.in">info@asnitcorporates.in</a>
                   </li>
                   <li>
                     <i className="flaticon-social-media"></i>
-                    <span>Socials Network</span>
+                    <span>Social Network</span>
 
                     <ul className="social">
                       <li>
@@ -72,7 +70,7 @@ const Footer: React.FC = () => {
                     <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="/about2">About</Link>
+                    <Link href="/about">About</Link>
                   </li>
                   <li>
                     <Link href="/blog">Blog</Link>
@@ -81,34 +79,7 @@ const Footer: React.FC = () => {
                     <Link href="/contact">Contact</Link>
                   </li>
                   <li>
-                    <Link href="/team2">Team Style Two</Link>
-                  </li>
-                  <li>
-                    <Link href="/features">Features</Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">Support</Link>
-                  </li>
-                  <li>
-                    <Link href="/shop">Shop</Link>
-                  </li>
-                  <li>
                     <Link href="/services">Services</Link>
-                  </li>
-                  <li>
-                    <Link href="/projects">Projects</Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">Support</Link>
-                  </li>
-                  <li>
-                    <Link href="/shop">Shop</Link>
-                  </li>
-                  <li>
-                    <Link href="/team">Team</Link>
-                  </li>
-                  <li>
-                    <Link href="/conatct">Support</Link>
                   </li>
                 </ul>
               </div>
@@ -189,7 +160,7 @@ const Footer: React.FC = () => {
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <p>
                   Copyright &copy;{currentYear} ASN IT. All rights reserved{" "}
-                  <a href="https://asnit.com/" target="_blank">
+                  <a href="https://asnitcorporates.in/" target="_blank">
                     ASN IT
                   </a>
                 </p>
