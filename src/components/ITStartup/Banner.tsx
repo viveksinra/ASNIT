@@ -15,7 +15,7 @@ const Banner: React.FC = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=bk7McNUjWgw"]}
+        sources={["https://youtu.be/KZ8wOl9vIvE?si=AkR23DmAZhdbqrXz"]}
       />
 
       <div className="it-banner">
