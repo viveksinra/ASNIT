@@ -42,10 +42,9 @@ const ContactForm: React.FC = () => {
         <div className="container">
           <div className="section-title">
             <span className="sub-title">Contact Us</span>
-            <h2>Drop us Message for any Query</h2>
+            <h2>Drop Us a Message for Any Query</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Welcome to ASN IT! We are dedicated to providing exceptional service and support to our clients. Feel free to reach out to us with any questions or inquiries.
             </p>
           </div>
 
@@ -73,7 +72,7 @@ const ContactForm: React.FC = () => {
                           value={formData.name}
                           onChange={handleChange}
                           className="form-control"
-                          placeholder="Name"
+                          placeholder="Your Name"
                           required
                         />
                       </div>
@@ -82,12 +81,12 @@ const ContactForm: React.FC = () => {
                     <div className="col-lg-6 col-md-12">
                       <div className="form-group">
                         <input
-                          type="text"
+                          type="email"
                           name="email"
                           value={formData.email}
                           onChange={handleChange}
                           className="form-control"
-                          placeholder="Email"
+                          placeholder="Your Email"
                           required
                         />
                       </div>
@@ -101,7 +100,7 @@ const ContactForm: React.FC = () => {
                           value={formData.number}
                           onChange={handleChange}
                           className="form-control"
-                          placeholder="Phone"
+                          placeholder="Your Phone Number"
                           required
                         />
                       </div>
