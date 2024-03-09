@@ -159,9 +159,9 @@ const Footer: React.FC = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-sm-6 col-md-6">
                 <p>
-                  Copyright &copy;{currentYear} ASN IT. All rights reserved{" "}
-                  <a href="https://asnitcorporates.in/" target="_blank">
-                    ASN IT
+                  Copyright &copy;{currentYear} ASN IT. All rights reserved. build in partnership with{" "}
+                  <a href="https://softechinfra.com/" target="_blank">
+                    Softechinra
                   </a>
                 </p>
               </div>
