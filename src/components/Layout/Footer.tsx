@@ -18,12 +18,12 @@ const Footer: React.FC = () => {
                     <i className="flaticon-phone-call"></i>
                     <span>Mon to Fri : 10:00AM - 06:00PM</span>
 
-                    <a href="tel:+919846173905">+919846173905</a>
+                    <a href="tel:+919284202612">+919284202612</a>
                   </li>
                   <li>
                     <i className="flaticon-email"></i>
                     <span>Do You Have a Question?</span>
-                    <a href="mailto:info@asnitcorporates.in">info@asnitcorporates.in</a>
+                    <a href="mailto:asnitcorporate@gmail.com">asnitcorporate@gmail.com</a>
                   </li>
                   <li>
                     <i className="flaticon-social-media"></i>
