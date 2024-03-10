@@ -11,7 +11,7 @@ const FunFacts: React.FC = () => {
             
           <div className="col-lg-3 col-sm-6">
               <div className="single-fun-facts">
-                <h3>30</h3>
+                <h3>30+</h3>
                 <p>Client</p>
                 <div className="back-text">A</div>
               </div>
@@ -19,7 +19,7 @@ const FunFacts: React.FC = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fun-facts">
                 <h3>
-                  324
+                  100+
                   <span className="sign-icon">+</span>
                 </h3>
                 <p>Project Completed</p>
