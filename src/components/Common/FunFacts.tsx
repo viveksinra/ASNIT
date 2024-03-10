@@ -8,6 +8,14 @@ const FunFacts: React.FC = () => {
       <div className="fun-facts-area ptb-100">
         <div className="container">
           <div className="row">
+            
+          <div className="col-lg-3 col-sm-6">
+              <div className="single-fun-facts">
+                <h3>30</h3>
+                <p>Client</p>
+                <div className="back-text">A</div>
+              </div>
+            </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-fun-facts">
                 <h3>
@@ -18,7 +26,16 @@ const FunFacts: React.FC = () => {
                 <div className="back-text">P</div>
               </div>
             </div>
-
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-fun-facts">
+                <h3>
+                  100
+                  <span className="sign-icon">+</span>
+                </h3>
+                <p>Expert Members</p>
+                <div className="back-text">E</div>
+              </div>
+            </div>
             <div className="col-lg-3 col-sm-6">
               <div className="single-fun-facts">
                 <h3>
@@ -30,24 +47,8 @@ const FunFacts: React.FC = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-fun-facts">
-                <h3>15</h3>
-                <p>Awards</p>
-                <div className="back-text">A</div>
-              </div>
-            </div>
 
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-fun-facts">
-                <h3>
-                  48
-                  <span className="sign-icon">+</span>
-                </h3>
-                <p>Expert Members</p>
-                <div className="back-text">E</div>
-              </div>
-            </div>
+          
           </div>
         </div>
       </div>
