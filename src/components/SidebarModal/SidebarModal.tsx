@@ -65,7 +65,7 @@ management services.
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/viveksinra" target="_blank">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
